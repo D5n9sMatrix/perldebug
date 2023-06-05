@@ -1,0 +1,8 @@
+<!DOCTYPE xml>
+<xml version="1.0">
+<perldebug application="perldebug" value="free" type="text/perl">
+<matrix content="http://www.cpan.org" name="archive" file="bin/perldebug.ae">
+
+</matrix>
+</perldebug>
+</xml>

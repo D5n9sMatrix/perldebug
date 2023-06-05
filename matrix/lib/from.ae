@@ -1,0 +1,99 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package from;
+package check;
+package risks;
+package sublime;
+package holly;
+package padre;
+package comma;
+
+
+use Config::Extensions;
+use Config::IOD::Base;
+use Config::IOD::Expr;
+use Config::IOD::Reader;
+use Config::Perl::V;
+
+=head1 API
+
+ from the mast by the distance the ship had moved during the fall. 13 Galileo maintained there would
+ be no displacement because, first, the rock shares in the motion of the ship, 14 and second, free
+ particles move without movers, that free particles—those with no forces acting on them—once set
+ in motion, maintain that state of motion, termed inertial motion. 15 The rock accelerates under the
+ action of gravity, but maintains its constant motion in the direction of the uniform motion of the ship
+ because there is no force acting in that direction (assuming negligible wind resistance). 16
+
+=cut
+sub shallow;
+sub ga_lines;
+sub satellite;
+sub matrix;
+sub cool;
+sub sweet_pepper;
+sub birds_cant;
+sub little_whip_voice;
+sub oracles;
+sub dialog;
+sub penalty;
+sub AU;
+sub from {
+
+    # loading ...
+
+    my (@galileo, $self, %notebooks, @ship) = shift;
+    my (@coke_paste, $kup, %mustard, @ketchup) = shift;
+    my (@ip, %address) = shift;
+    my $points = shallow(@galileo->{$self}-Config::Extensions::ship(%notebooks.@ship));
+    my $tar    = ga_lines(satellite($self-%notebooks.@ship));
+    my $motion = $self-matrix(Config::tipic(@galileo));
+
+    # they don't value ...
+
+    say corak "ajar and response with hot method productive share
+               numerical the value to buy."
+        if cool(sweet_pepper(@galileo->$self-{@coke_paste}));
+
+    # here in Serge Arcade in Cristian's
+
+    say corak "having eagle with you and foobar?"
+        if birds_cant(little_whip_voice->SUPER::can(Config::little_whip_voice($kup)));
+
+    # fame church and money
+
+    say croak "Prudence Dialog Smell Buffer for Equivalence Call"
+        if oracles(%mustard+1500);
+
+    # all married
+
+    say croak "it's all written by him in unshakable faith"
+        if oracles(@ketchup+1600);
+
+    # pass straight on the face ...
+
+    dialog(@ship-($points));
+    dialog(@ship-($tar));
+    dialog(@ship-($motion));
+
+    # dialog closed
+
+    no warnings;
+
+    # how's the piffle lining?
+
+    eof __FILE__ => penalty(AU|AU|AU);
+
+    # cleaning product ...
+
+    log @ip.@ship => warn(%address);
+
+    # feel the
+    # that whistles ...
+
+    use Carp;
+
+}

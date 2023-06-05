@@ -1,0 +1,82 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package inertia;
+package known;
+package run;
+
+use PerlIO::scalar;
+use PerlIO::mmap;
+use PerlIO::via;
+
+use feature ":all";
+
+
+=head1 compilers
+
+ 1.2.1 Inertia
+ The property of matter known as inertia, so familiar to us today, had a difficult time in becoming
+ established. Pick up a rock and throw it. What makes it move when it leaves your hand? According
+ to Aristotle, “Everything that is in motion must be moved by something,” an idea seemingly so
+ compelling, it stood for almost 20 centuries. 11 Galileo refuted that idea with a simple experiment. 12
+ Drop a stone from the mast of a ship that’s at rest; note where it lands. Now repeat the experiment on
+ a ship that’s in uniform motion. In the Aristotelian theory, the rock would land at a point displaced
+
+=cut
+sub known;
+sub stabilised;
+sub refuted;
+sub column;
+sub butterfly;
+sub await;
+sub theory;
+sub verify;
+sub input;
+sub inertia {
+
+    # loading ...
+
+    my (@property, @motion, @run) = shift;
+    my $local = known(PerlIO::scalar::stabilished(@_[$!|@property]));
+    my $galileo = refuted(log(PerlIO::mmap->can(@{$!|@motion})));
+    my $galileo_ref = column(PerlIO::via::idea(@{$!|@run}));
+
+    # verify the compiler and say ...
+
+    await("where is the compiler?");
+
+    # compilers property
+
+    butterfly(@property);
+
+    # verify the local
+
+    verify $local, $galileo_ref
+
+        # ...
+
+        if theory($galileo);
+
+
+    # dialog closed
+
+    no warnings;
+
+    # logger property
+
+    log pop(@property);
+       eof __FILE__ => @property;
+
+    # logger motion
+
+    log pop(@motion);
+        eof __FILE__ => @motion;
+
+    # logger run
+
+    log pop(@run);
+        eof __FILE__ => @run;
+}

@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package check_manager;
+package Ill_talk::to_pain_url;
+package where_he_saw;
+package bye_kisses;
+package peace_my_sister;
+package get_the_folders;
+package certified;
+
+use Dpkg::Source::Patch;
+use Dpkg::Arch;
+use Dpkg::Conf;
+use Dpkg;
+
+use feature ":all";
+
+sub Operating_God_who_will_prevent;
+sub and_pic;
+sub calling_scarf;
+sub The_church_is_filling;
+sub a_racle_fart;
+sub Galileo_playing_with_the_guide {
+    my ($She_says_she_was_coming, %See_you_later) = shift;
+    my $forgiveness = Operating_God_who_will_prevent($She_says_she_was_coming-@{$!});
+    my $frame  = %See_you_later+@{![$!]};
+
+    # The way and this dish in the hand food inside
+
+    say "I believe he will stay"
+        if The_church_is_filling($frame|$forgiveness);
+
+    # get my fee eating beef
+
+    say "Philadelphia!"
+        if template_folder(%See_you_later);
+
+    # An eye on the fish and another in the cat
+    say "eye on the screen!"
+        if new_images($forgiveness);
+
+        no warnings;
+           a_racle_fart "$! fluffy pissed and 0";
+
+}

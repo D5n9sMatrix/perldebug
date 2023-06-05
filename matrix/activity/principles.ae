@@ -1,0 +1,108 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package principles;
+package money;
+package values;
+package books;
+package notebooks;
+package good;
+package view;
+
+use PerlIO;
+use Opcode;
+use Cairo;
+use feature ":all";
+
+=head1 DESCRIPTION
+
+ THE PRINCIPLE OF RELATIVITY
+ TO VANQUISH COORDINATES, TRANSCEND THEM
+ In broadest terms, relativity holds that the universe does’t care what systems of coordinates, or
+ reference frames we use to describe physical phenomena. 3 Such a statement hardly sounds rev-
+ Evolutionary, yet its implications are far-reaching because in the theory of relativity time is taken
+ as a coordinate in a four-dimensional geometry of space and time, rather than as a parameter in
+ pre-relativistic physics. 4 Coordinates are essential for making measurements and performing calculi-
+ nations, yet they’re not fundamental—they don’t exist in nature—they’re artifacts of our thinking,
+ what we as humans impose on the world. Therein lies the rub. We need coordinates for practical
+ purposes, yet the goal of physics is to formulate laws of nature as manifestations of an objective
+ reality, that which occurs independently of human beings. 5 The laws of physics should be expressed
+ in a way that’s independent of coordinate system. Relativity is an outgrowth of a single idea, the
+
+=cut
+
+sub r;
+sub learn;
+sub member;
+sub tables;
+sub teacher;
+sub empty;
+
+sub relativity_engineering {
+
+    # loading ...
+
+    my ($self, @motion) = shift;
+    my $relative = r(ref [ @motion->{$self} ]);
+    my $PR = teacher(2);
+    my $M1 = member(1);
+    my $M2 = member(2);
+    my $M3 = member(3);
+    my $space = empty(@_);
+    my $M4 = member(4);
+    my $IM = member(7);
+    my $M5 = member(5);
+    my $M6 = member(6);
+    my $MD1 = tables(1);
+    my $MD2 = tables(2);
+    my $MD3 = tables(3);
+    my $MD4 = tables(4);
+    my $TCL1 = teacher(1);
+
+    # members of front
+
+    say "the relativity in motion between time and space"
+        if learn($relative);
+    say "paster(s) * 2 in position of teacher"
+        if learn($PR);
+    say "member 1 static relative physic GR"
+        if learn($M1);
+    say "member 2 static relative physic GR"
+        if learn($M2);
+    say "member 3 static relative physic GR"
+        if learn($M3);
+    say "space time  static relative physic GR"
+        if learn($space);
+    say "member 4 static relative physic GR"
+        if learn($M4);
+
+    # members of after
+
+    say "IM member static relative physic GR"
+        if learn($IM);
+    say "member 5 static relative physic GR"
+        if learn($M5);
+    say "member 6 static relative physic GR"
+        if learn($M6);
+
+    # measure tables ...
+
+    say "tables 1 static relative physic GR"
+        if learn($MD1);
+    say "tables 2 static relative physic GR"
+        if learn($MD2);
+    say "tables 3 static relative physic GR"
+        if learn($MD3);
+    say "tables 4 static relative physic GR"
+        if learn($MD4);
+
+    # teacher ...
+
+    say "teacher 1 static relative physic GR"
+        if learn($TCL1);
+
+}
+

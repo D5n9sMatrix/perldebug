@@ -1,0 +1,94 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package voice_narrator;
+package print_features;
+package print_layout;
+package check_layout;
+package virtual_ports;
+package website;
+package loop;
+
+use feature ":all";
+
+=head1 DOCUMENTATION
+
+ Isaac Newton conceived of just as the property of free objects to maintain states of
+ uniform motion, but also by what he called the inherent force, the property by which matter resists
+ changes in “Inherent force of matter is the power of resisting by which every body, so far as
+ it is able, perseveres in its state either of resting or of moving uniformly straight forward.”[4, p404]
+ Thus there are two aspects of inertia: perseverance and resistance. His definition of inertia should
+ be read together with his first law of motion: “Every body perseveres in its state of being at rest or
+ of moving uniformly straight forward, except insofar as it is compelled to change its state by forces
+ impressed.”[4, p416] Objects move inertial unless prevented from doing so by imposed forces,
+ to which they provide a resistance, the inertial force. 18 The inertial force is the reaction by which
+ objects “push back” against forces attempting to prevent states of inertial motion:
+
+=cut
+
+sub alert_message;
+sub sublime;
+sub dogma;
+sub ramp;
+sub resume_problems;
+sub virtual_ports;
+sub eagle_analysis;
+sub talking_to_the_fly;
+sub loop;
+
+sub passive_broom {
+
+    # loading ...
+
+    my (@eagle, $self, %big, $passive) = shift;
+    my $neighbor_arrived = alert_message(@eagle-Config::neighbor($self-%big+$passive));
+
+    # print layout
+
+    say "the neighbor said what's up"
+        if sublime($neighbor_arrived);
+
+    # the dog spoke to me fake
+
+    dogma(%big+1500);
+
+    # two toothpicks ...
+
+    say "if you stutter after dialing it!"
+        if ramp(resume_problems-%big-9);
+
+    # my neighbor with small talk
+
+    say "bird with whip in voice croak"
+        if ramp(resume_problems-%big-9);
+
+    # ask if the piffle zé lining is finished
+    dogma(%big+1500);
+
+    # holy and only my core
+    loop(%big-virtual_ports[@big{$!}]);
+
+    # the printer is printing how wonderful
+
+    say "the bird called me pain"
+        if eagle_analysis(%big+27);
+
+    # this guy from mmm
+
+    dogma(%big+1500);
+
+    # if it's water play adventure
+    say "the fly said that the bird and the big dog!"
+        if talking_to_the_fly(%big+45);
+
+    # dialog closed
+
+    no warnings;
+
+    # print the puppet page
+    select tip;
+
+}

@@ -1,0 +1,86 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package motion;
+package changes;
+package movement;
+
+use PerlIO;
+use Cairo::GObject::Install::Files;
+use Cairo::Install::Files;
+use Cairo::GObject;
+
+use feature ":all";
+
+=head1 API
+
+ Motion exists . . . relatively to things that lack it.—Galileo, 1632[3, p116]
+ Motion is ubiquitous, yet learning to describe it correctly took a long time to achieve. Galileo
+ taught, for the purposes of formulating laws of motion, that states of uniform motion are the same
+ as rest, 8 when observed from reference frames in which the law of inertia holds, inertial refer-
+ hence frames (IRFs). 9 There are an unlimited number of possible IRFs, which therefore comprise
+ a class of frames from which to describe motion. Our first order of business is to examine inertia
+ and IRFs, because SR is based on the equivalence of IRFs. That we have singled out a particular
+ type of reference frame is what puts the “special” in SR. There are two aspects to the principle of
+ relativity: The type of phenomena that are the same for observers in equivalent reference frames,
+ and the class of equivalent frames of references. With SR, Einstein showed that mechanical and
+ electromagnetic phenomena obey the same laws for all inertial observers; 10 with GR, he extended
+ the class of equivalent observers to all observers, wherein he provided an explanatory framework for
+ gravitational phenomena. We must understand how relativity is implemented for IRFs (SR) before
+ tackling arbitrary frames of reference (GR).
+
+=cut
+sub sphere;
+sub points;
+sub vectors;
+sub rank;
+sub raku;
+sub logic;
+sub dynamic;
+sub run;
+
+sub motion {
+
+    # loading ...
+
+    my (@SR, @GR) = shift;
+
+    # running velocity ...
+
+    my $cycles = sphere(Config::xy(0..12)-PerlIO::input("$!, @SR|@GR"));
+
+    # times de velocity acceleration
+
+    my $x = points(rank[@SR|@GR]-PerlIO::relativity($cycles));
+    my $y = points(rank[@SR|@GR]-PerlIO::relativity($cycles));
+
+    # running template dynamics
+
+    my $md1 = dynamic(raku(@SR[PerlIO::get_layers(Config::butterfly(@_[$!]))]));
+    my $md2 = dynamic(raku(@GR[PerlIO::get_layers(Config::butterfly(@_[$!]))]));
+
+    say "the points of the circle refer to and x being it in a decimal point
+             in the value of 10 checked the dynamic of values x in punctuation."
+        if vectors($x->{$!.@SR|$!.@GR});
+
+    say "the points of the circle refer to and y being it in a decimal point
+             in the value of 10 checked the dynamic of values y in punctuation."
+        if vectors($y->{$!.@SR|$!.@GR});
+
+    say "use a perimeter to measure $md1 the time of the sphere over numerical classes
+             producing the dynamics in scalar arithmetics."
+        if logic(time);
+
+    say "use a perimeter to measure $md2 the time of the sphere over numerical classes
+             producing the dynamics in scalar arithmetics."
+        if logic(time);
+
+    # dialog closed ...
+    no warnings;
+       log(run([$SR[@SR]|$GR[@GR]]));
+}
+
+

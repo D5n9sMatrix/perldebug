@@ -1,0 +1,72 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package collapse;
+package sap_navigator_voice;
+package check_camp;
+package check_files;
+package input_next;
+package pages;
+
+use Date::Format;
+use Date::Language;
+use Date::Language::Brazilian;
+use feature ":all";
+use DB;
+
+=head1 API
+
+ Because of the inertia of matter, every body is only with difficulty put out of its state
+ either of resting or of moving. Consequently, inherent force may also be called by the
+ very significant name of force of inertia. Moreover, a body exerts this force only during
+ a change of its state, caused by another force impressed upon it, and this exercise of
+ force is, depending on the view point, 19 both resistance and impetus: 20 resistance into-
+ far as the body, in order to maintain its state, strives against the impressed force, and
+ impetus insofar as the same body, yielding only with difficulty to the force of a resist-
+
+=cut
+sub big;
+sub Pussycat;
+sub offering;
+sub admirable;
+sub calm;
+sub virtual_whip_for_business;
+sub pipe_business;
+sub a_popsicle;
+sub baby_shit;
+sub little_child_seeing_the_fly;
+sub the_neighbor_arrived;
+sub and_just_call;
+sub to_eat_in_the_pan;
+sub old_man_fart;
+sub farting_so_anyone_will;
+sub lp;
+sub fly;
+sub run;
+sub end0 {
+
+    # loading ...
+
+    my (@lap, @bic, %select, $richer) = shift;
+    my $virtual_ports = big(@lap[Pussycat]+@bic[offering]+%select.$richer+[admirable]);
+    my $tip           = calm(@lap|@bic|%select.$richer);
+    my $deny          = virtual_whip_for_business(@{"accept a popsicle"});
+    my $running       = pipe_business(-b([$richer]));
+    my $big           = lp("input");
+
+    run(["Galileo $virtual_ports"])
+        if baby_shit(@_[$!]);
+    run(["the eagle $tip"])
+        if little_child_seeing_the_fly(the_neighbor_arrived(%select.$richer));
+    run("the bird $deny")
+        if and_just_call(to_eat_in_the_pan);
+    run(old_man_fart($running->$richer))
+        if farting_so_anyone_will($big);
+
+    no warnings;
+      "known"
+
+}

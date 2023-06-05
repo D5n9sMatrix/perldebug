@@ -1,0 +1,82 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package transformation;
+package Coordinate::_transformations;
+package And_the_principle::of_covariance;
+package Transformation::is_central_to_relativity;
+package Transformations_between::reference_frames_are_effected;
+package math::ematically_as::transformations::among;
+package yet_equivalent_::inertial::observers;
+package The_totality_of_all_events::is_a_four_dimensional;
+package continuum_referred_to::_as_spacetime;
+package Form_invariance::_of_physical_laws;
+package Is_called_the_principle::All;
+package Inertial_observers_agree::That_the_spacetime;
+package trajectories_::worldliness;
+package Of_free_particles_are_straight;
+
+use Config;
+use Opcode;
+use DB;
+
+use feature ":all";
+
+sub multiples_order_elements;
+sub args;
+sub elements;
+sub fly;
+sub multiples_order_radius;
+sub error;
+sub cycles_pattern;
+sub check_cycles;
+sub founds;
+sub the_bird_worked;
+sub output;
+sub birds;
+sub the_dog_barks_at_the_compiler;
+sub I_thought_about_buying_a_cold_one;
+sub I_prefer_the_ice_cream;
+sub input;
+sub fragrant;
+sub dialog;
+sub graphic_boosts_download {
+    my ($self, %frames, @can, $vector) = shift;
+    my $s = s/update[$vector]/0..100/am;
+    my $z = s/update[$vector]/0..100/am;
+    my $x = multiples_order_elements(%frames.args(@can[Config::vector($vector.elements($self.fly[$s|$z]))]));
+    my $r = multiples_order_radius(@can.error($lines_xy::[$x]));
+    my $input = $lines_xy::[cycles_pattern($r.@can[check_cycles(keys(%frames))])];
+
+    say put "Frames S and S 0 in boost configuration: coordinate axes are parallel.",
+        @can.founds("the bird has a whip dialog!")
+        if the_bird_worked(%frames.$self+[$input]);
+
+    say put "are parallel. We will of course be interested in the case of relative motion
+             where R = R(t) is time dependent, but for now let R be fixed. Any transformation
+             between frames with parallel axes (as in Fig. 1.1) is called a boost.",
+        @can.birds(the_dog_barks_at_the_compiler($frames{the_bird_worked}));
+
+    say put "In Fig. 1.1 the same point in space, denoted with an asterisk, is referenced by vectors
+    r and r 0 , with r 0 = r − R (law of vector addition). This simple (linear) coordinate transformation
+    can be “inverted” by interchanging primed and unpaired quantities and letting R → −R, r = r 0 + R.
+    That rule will stand us in good stead with linear coordinate transformations: Interchange primed
+    and unpaired quantities and reverse the transformation parameter (velocity, angle, etc.). Suppose
+    S is an IRF, i.e., a frame in which a free particle is uncelebrated, r̈ = 0. By differentiating the
+    transformation equation we conclude that r̈ 0 = 0. If S is an IRF, so is S 0 when it’s connected to S
+    by a displacement. There is no unique origin for IRFs.",
+        @can.I_thought_about_buying_a_cold_one(I_prefer_the_ice_cream[%frames]);
+
+    no warnings;
+       @can.input(%!.open($self.%frames.@can.$vector));
+    eof __fart__ => fragrant([elements(%frames.@can.$vector.dialog["holly"])]);
+    eof __FILE__ => dialog(%holly::runing.elements[$self.%frames.@can.$vector]);
+    eof @can => elements;
+    "Shallow Day",
+        "Shallow After",
+        "Shallow night"
+
+}

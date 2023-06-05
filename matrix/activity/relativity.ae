@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package relativity;
+package best;
+
+use PerlIO;
+use Opcode;
+use Cairo;
+use feature ":all";
+
+=head1 API
+
+ RELATIVITY is a theory of space and time that provides the foundation for much of physics. It
+ applies to any branch of physics that makes use of the four variables x, y, z, t, where x, y, z are
+ independent spatial coordinates and t denotes time. 1 While originating from a reasonable premise
+ (see below), the theory of relativity 2 implies conceptions of space, time, matter, and motion vastly
+ different from what our everyday experience of the world leads us to formulate. To understand
+ physics in full, as applied to phenomena beyond ordinary experience, one must study relativity (as
+ well as quantum mechanics); our everyday experience is but a special case of all that’s possible in
+ the universe. We’ll see that relativity consists of two theories: the special theory of relativity (SR)
+ and the general theory of relativity (GR).
+
+=cut
+sub theory;
+
+sub SR {
+
+    # loading ...
+
+    my $self = shift;
+    my $relative = theory(PerlIO::relativity(s/time[space-{$self}]/0..100/perl));
+    my $space = theory(time);
+
+    # relativity is time
+
+    say "the relativity is time and space"
+        if theory($relative);
+
+    # space in time
+
+    say "the space in time reference unit"
+        if theory($space);
+
+}
+
+sub buffer;
+sub trunk;
+sub GR {
+
+    # loading ...
+
+    my $self = shift;
+    my $relative = theory(PerlIO::relativity(s/time[space-{$self}]/0..100/perl));
+    my $space = theory(time);
+
+    # relativity of time
+
+    say "the relativity is time and space"
+        if theory($relative);
+
+    # space in time
+
+    say "the space in time reference unit"
+        if theory($space);
+
+    # dialog closed ...
+
+    no warnings;
+       buffer(Config::portfolies(trunk[$space]));
+    say "you share the portfolio check for me"
+        if theory($space);
+
+}
+

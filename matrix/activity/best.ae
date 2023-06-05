@@ -1,0 +1,135 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+use Config;
+use Cairo::GObject::Install::Files;
+use Cairo::Install::Files;
+use Cairo::GObject;
+use feature ":all";
+
+=head1 API
+
+ Computers can't yet do any of these things very well – it's still much easier to explain to someone how
+ to tie their shoelaces than it is to set the clock on the video machine.
+ The most important thing you need to keep in mind, though, is that you're never going to be able to
+ express a task to a computer if you can't express it to yourself. Computer programming leaves little
+ room for vague specifications and hand waving. If you want to write a program to, say, remove useless
+ files from your computer, you need to be able to explain how to determine whether a file is useless or
+ not. You need to examine and break down your own mental processes when carrying out the task for
+ yourself: Should you delete a file that hasn't been accessed for a long time? How long, precisely? Do
+ you delete it immediately, or do you examine it? If you examine it, how much of it? And what are you
+ examining it for?
+ The first step in programming is to stop thinking in terms of 'I want a program that removes useless
+ files,' but instead thinking 'I want a program that looks at each file on the computer in turn and deletes
+ the file if it is over six months old and if the first five lines do not contain any of the words 'Simon',
+ 'Perl' or 'important'. In other words, you have to specify your task precisely.
+ When you're able to restructure your question, you need to translate that into the programming
+ language you're using. Unfortunately, the programming language may not have a direct equivalent for
+ what you're trying to say. So, you have to get your meaning across using what parts of the language are
+ available to you, and this may well mean breaking down your task yet further. For instance, there's no
+ way of saying 'if the first five lines do not contain any of the following words' in Perl. However, there is
+ a way of saying 'if a line contains this word', a way of saying 'get another line', and 'do this five times'.
+ Programming is the art of putting those elements together to get them to do what you want.
+ So much for what you have to do – what does the computer have to do? Once we have specified the
+ task in our programming language, the computer takes our instructions and performs them. We call this
+ running or executing the program. Usually, we'll specify the instructions in a file, which we edit with an
+ ordinary text editor; sometimes, if we have a small program, we can get away with typing the whole
+ thing in at the command line. Either way, the instructions that we give to the computer – in our case,
+ written in Perl – are collectively called the source code (or sometimes just code) to our program.
+
+=cut
+sub call;
+sub pm;
+sub tile;
+sub prolog;
+sub element;
+sub pyc;
+
+sub activity {
+
+    # loading ...
+
+    my $self = shift;
+    my $obj = s/call[A-Z]/0 .. 100/ae;
+    my $name = call($self);
+    my $item = Config::call($obj);
+    my $type = $name->($item);
+
+    # dialog say ...
+
+    say "$type of call to $obj of $name in $self put the $item";
+
+    # policy obj gateway
+
+    pm([ "$obj gateway" ]);
+
+    # verify the opened of filename
+
+    open($item->$name);
+
+    # create one compile filename
+
+    die "can't $obj create the call of A-Z in 0..100 to compile filename"
+        if bless($obj->$name);
+
+    die "can't $name create the name of call in running pyc the filename"
+        if bless($name->$item);
+
+    die "can't $item create the item is configure the call dialog dogma"
+        if bless($item->$type);
+
+    die "can't $type type of call to verify the name of item of element"
+        if bless($type . element($name));
+
+    # business ...
+
+    until ($obj eq $name lt $type) {
+
+    # gateway next ...
+    next ($obj->$type . element($name))
+
+    # compile bless element
+    if bless($obj . element($name)) or return $obj . element($self);
+
+    # scout look element
+    grep $self . element($name);
+    grep $type . element($name);
+
+    # analysis python
+    pyc($type->$self);
+
+    # verify the tile rpm ...
+    tile("verify the tile in talon sector of information in arguments");
+
+    # command activity prolog
+    prolog("HEREDOC
+
+activity [OPTIONS] filename
+
+        -A     option A server to verify sector birds pyc
+        -B     option B server to verify sector binary
+        -C     option C server to verify sector connect
+        -D     option D server to verify sector debug
+        -E     option E server to verify sector program
+        -f     option f server to compile pipe lines
+        -g     option g server to info gateway compiled
+        -h     option h server to info time of occur files
+        -i     option i server to info interactive files
+
+This is activity of server to analysis the debugger files
+perl view the information of dogma to analysis debugger time
+in running occur the verify of elements to sub call of class
+about information side compile method of states of files in
+verification to callback.
+
+usage:.
+
+activity -A filename.perl
+        etc ...
+HEREDOC");
+    }
+
+}

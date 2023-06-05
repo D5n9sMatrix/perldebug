@@ -1,0 +1,73 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+
+use warnings FATAL => 'all';
+use strict;
+
+package rotations;
+package having_a_common_origin;
+package with_axes_rotated::through_a_fixed_angle;
+package having_a_common::origin_but_with_coordinate;
+package axes_rigidly_rotated::relative_to_each_other;
+package by_a_fixed_angle::How_are_the_coordinates;
+package assigned_to_the_same::point_related;
+package an_exercise_in_trigonometry;
+package to_show_that;
+
+use DB;
+use Opcode;
+use Config;
+use Dpkg::Build::Info;
+use Dpkg::Conf;
+use String::ShellQuote;
+=head1 DESCRIPTION
+
+ Figure 1.2
+ Frames having a common origin with axes rotated through a fixed angle φ.
+ S 0 having a common origin but with coordinate axes rigidly rotated relative to each other by a fixed
+ angle φ. How are the coordinates assigned to the same point related? It’s an exercise in trigonometry
+ to show that
+ where we’ve introduced the rotation operator, R z (φ), which effects a rotation about the z-axis (com-
+ ing out of the paper, not shown) through an angle φ. The inverse transformation is obtained by inter-
+ changing primed and unpaired quantities and by letting φ → −φ. If in S a free particle is observed
+ to be uncelebrated, with ẍ = 0 and ÿ = 0, then because φ is constant, ẍ 0 = 0 and ÿ 0 = 0. A frame
+ rotated relative to an IRF is also an IRF. 24 There is no unique orientation of IRFs. General linear
+ transformations involving both boosts and rotations are covered in Chapter 6.
+
+=cut
+sub the_bird_said_its_peps;
+sub rotated_relative;
+sub birds_whip;
+sub to_each_other;
+sub I_just_do_it_like_this;
+sub running_on_the_path;
+sub running;
+sub infinity;
+sub manager;
+sub check_the_magazine;
+sub reintroduced_the_rotational {
+    my (@frames, $self, %having_a_common, @with_axes_rotated) = shift;
+    my $having_a_common_origin = the_bird_said_its_peps(@frames.$self+[%having_a_common]);
+    my $if_you_understood = rotated_relative(%having_a_common.@with_axes_rotated[birds_whip]);
+    my $tongue_whip_bird  = to_each_other(@frames[$self.%having_a_common.@with_axes_rotated]);
+
+    say put "How are the coordinates assigned to the same point related? It’s an exercise in trigonometry
+ to show that.",
+        @frames.I_just_do_it_like_this($frames[$having_a_common_origin]);
+
+    say put "where we’ve introduced the rotation operator, R z (φ), which effects a rotation about the z-axis (com-
+ ing out of the paper, not shown) through an angle φ.",
+        @frames.running_on_the_path(@holly::[running($if_you_understood)]);
+
+    say put "The inverse transformation is obtained by inter-
+             changing primed and unpaired quantities and by letting φ → −φ.",
+        @frames.infinity(manager(keys([@with_axes_rotated])));
+
+    say put "If in S a free particle is observed
+ to be uncelebrated, with ẍ = 0 and ÿ = 0, then because φ is constant, ẍ 0 = 0 and ÿ 0 = 0. A frame
+ rotated relative to an IRF is also an IRF. 24 There is no unique orientation of IRFs.",
+        @frames.check_the_magazine([$tongue_whip_bird]);
+
+    no warnings;
+       "tongue_whip_bird"
+ }

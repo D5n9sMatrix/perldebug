@@ -1,0 +1,106 @@
+#!/usr/bin/perl
+#!-*- coding: utf-8 -*-
+use warnings FATAL => 'all';
+use strict;
+
+package theory;
+package galileo_wonder;
+package call_to_dialog;
+package learn_study;
+package its_still_him;
+package I_farted_cute;
+package every_gossip;
+package virtual_port;
+
+use Date::Language::Brazilian;
+use Date::Language;
+use Date::Format;
+
+use feature ":all";
+
+
+=head1 RICHER
+
+ 13 In the Aristotelian theory, once the stone has been released (and no longer has a mover), it can
+ only undergo its “natural” motion toward the center of Earth; where the ship goes after the release
+ of the rock is immaterial. 14 This point, obvious to us today, was one that Galileo had to take pains
+ to establish, that objects can have a superposition of motions, i.e., velocity is a vector quantity. In
+ the Aristotelian theory, objects not subject to movers can only have their natural motions. That objects
+ can have “two motions” (downwards and sideways) was foreign to the Aristotelian worldview. 15 Galileo based
+ this conclusion on his experiments with inclined planes: Objects accelerate on planes oriented downward,
+ decelerate on those oriented upwards, and have no acceleration on horizontal planes.
+ 16 Truth in advertising: A particle dropped from a sufficiently high point would show a displacement from
+ the Coriolis acceleration. By Earth’s rotation, a body dropped from a high elevation has a higher transverse
+ velocity than the ground. Such a displacement actually confirms Galileo’s hypothesis that different types of
+ motion can be imparted to particles. 17 In the Aristotelian theory, the speed of the ship could be inferred
+ from the displacement of the rock. Perhaps one has ridden in a train through a tunnel (or a submarine),
+ where, if the ride is smooth enough, one doesn’t have a sense of motion. The MM experiment failed to detect
+ uniform motion by electromagnetic means. 18 We’ll see in GR that your weight is the force which must be
+ supplied to prevent you from continuing in a state of inertial motion. What’s seen as accelerated motion
+ in three dimensions (under the force of gravity) corresponds to a constant state of motion in
+ four-dimensional spacetime (defined on page 5). As shown in GR, gravity is a property of spacetime. 19 What
+ we refer to as reference frame, Newton called point of view. 20 Impetus is another word for momentum. What
+ we call momentum, Newton called quantity of motion, defined [4, p404] as “the velocity and quantity of
+ matter jointly”; hence momentum p = mv. In SR, momentum is defined as p = mγv (where γ = (1 − v 2 /c 2 )
+ −1/2 and c is the speed of light), an alternative “quantity of motion.” For v  c, γ ≈ 1.
+
+=cut
+sub run;
+sub deny;
+sub bent_calling_deny;
+sub input;
+sub the_eagle_will_deny;
+sub The_owner_of_the_cow;
+sub _in_the_middle;
+sub enter_home_ra_to;
+sub key;
+sub output;
+sub gasoline_and_with_chicken;
+sub agent_is_out_of_time {
+
+    # loading ...
+
+    my (%perfume, %fly, $turns, @beef, @bitcoin) = shift;
+    my $lambada = run(%perfume|%fly|$turns|@beef);
+    my $change_car_for_me_to_smell = %perfume;
+    my $rice_field = %fly;
+    my $It_has_sausage = _in_the_middle($turns);
+    my $pipelines = enter_home_ra_to(@beef+[@bitcoin]);
+    # The little bird said Come on the window
+
+    say put "the bird is having a bad time with the cow's coconut"
+        if deny(@beef);
+
+    # There you were true, you remember.
+
+    say put "I'm going to put one more bread for the bent I think he's
+             hungry!"
+        if bent_calling_deny(%fly);
+
+    # If he win, he's just false
+
+    say put "he came to the bike quietly!"
+        if run($lambada+[input($change_car_for_me_to_smell+[450])]);
+
+    # He and on the other side of the people
+
+    say put "Chicken's poop"
+        if the_eagle_will_deny(@{'|'});
+
+    # which is worth is having a pocket Wallet
+
+    say put "cow"
+        if The_owner_of_the_cow($rice_field);
+
+    # the race the validity when we think of sausage
+    key($It_has_sausage+[450]);
+    output($pipelines+[50]);
+
+    # cheap ...
+
+    say put "PYC cheap gasoline you find here!"
+        if gasoline_and_with_chicken($perfume{url});
+
+    no warnings;
+      "say 21"
+}
