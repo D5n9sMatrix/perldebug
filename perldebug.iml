@@ -1,8 +1,7 @@
-<!DOCTYPE xml>
-<xml version="1.0">
-<perldebug application="perldebug" value="free" type="text/perl">
-<matrix content="http://www.cpan.org" name="archive" file="bin/perldebug.ae">
-
-</matrix>
-</perldebug>
-</xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PERL6_MODULE_TYPE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
